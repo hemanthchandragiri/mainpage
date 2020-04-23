@@ -3,19 +3,28 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body{
-	background-image: linear-gradient( to right ,#141e30,#243b55);
+	background-image: linear-gradient( to right ,#0f0c29,#302b63,#24243e);
+	overflow: hidden;
 }
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300,100);
 
 .topnav {
   overflow: hidden;
   background-color: #333;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 5px blue;
 }
 .text2 h1{
 	font-size: 2vh;
+	font-family: Baloo Bhai;
 }
 .text5
 {
 	background-image: linear-gradient(to right, #11998e,#38ef7d);
+}
+.textmess  p
+{
+ font-family:Josefin Sans;
 }
 
 
@@ -27,6 +36,7 @@ body{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  border-radius: 5px;
 }
 
 .active {
@@ -41,6 +51,7 @@ body{
 .dropdown {
   float: left;
   overflow: hidden;
+  border-radius: 5px;
 }
 
 .dropdown .dropbtn {
@@ -61,6 +72,7 @@ body{
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  border-radius: 5px
 }
 
 .dropdown-content a {
@@ -104,7 +116,15 @@ body{
     right: 0;
     top: 0;
   }
-  .topnav.responsive a {
+  .slideshow-container{
+  	height: 300px;
+
+  }
+  .web2
+  {
+  	height: 30%;
+  }
+   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
@@ -125,12 +145,14 @@ body{
 {
  justify-content: center;
 }
+
 .slideshow-container {
     max-width: 1000px;
-
+ 
     position: relative;
     margin: auto;
     display: grid;
+    border-radius: 10px;
 
 
 }
