@@ -4,9 +4,7 @@
 }
 body{
 	background-image: linear-gradient( to right ,#0f0c29,#302b63,#24243e);
-	overflow: hidden;
 }
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300,100);
 
 .topnav {
   overflow: hidden;
