@@ -3,7 +3,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body{
-	background-image: linear-gradient( to right ,#0f0c29,#302b63,#24243e);
+  background-image: linear-gradient( to right ,#0f0c29,#302b63,#24243e);
 }
 
 .topnav {
@@ -13,8 +13,8 @@ body{
   box-shadow: 0px 0px 5px 5px blue;
 }
 .text2 h1{
-	font-size: 2vh;
-	font-family: Baloo Bhai;
+  font-size: 2vh;
+  font-family: Baloo Bhai;
 }.text3 p
 {
   font-family: Vollkorn;
@@ -35,7 +35,7 @@ body{
 }
 .text5,.text4,.text3,.text2
 {
-	background-image: linear-gradient(to right, #11998e,#38ef7d);
+  background-image: linear-gradient(to right, #11998e,#38ef7d);
 }
 
 .textmess  p
@@ -75,89 +75,7 @@ body{
   color: black;
 }
 
-.multi-spinner-container {
-  width: 150px;
-  height: 150px;
-  position: relative;
-  margin: 30px auto;
-  overflow: hidden;
-  }
 
-.multi-spinner1 {
-  position: absolute;
-  width: calc(100% - 9.9px);
-  height: calc(100% - 9.9px);
-  border: 5px solid transparent;
-  border-top-color: orange;
-  border-radius: 50%;
-  -webkit-animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
-  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
-}
-.multi-spinner2 {
-  position: absolute;
-  width: calc(100% - 9.9px);
-  height: calc(100% - 9.9px);
-  border: 5px solid transparent;
-  border-top-color: green;
-  border-radius: 50%;
-  -webkit-animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
-  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
-}
-.multi-spinner3 {
-  position: absolute;
-  width: calc(100% - 9.9px);
-  height: calc(100% - 9.9px);
-  border: 5px solid transparent;
-  border-top-color: black;
-  border-radius: 50%;
-  -webkit-animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
-  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
-}
-.multi-spinner4 {
-  position: absolute;
-  width: calc(100% - 9.9px);
-  height: calc(100% - 9.9px);
-  border: 5px solid transparent;
-  border-top-color: pink;
-  border-radius: 50%;
-  -webkit-animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
-  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
-}
-.multi-spinner5 {
-  position: absolute;
-  width: calc(100% - 9.9px);
-  height: calc(100% - 9.9px);
-  border: 5px solid transparent;
-  border-top-color: red;
-  border-radius: 50%;
-  -webkit-animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
-  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
-}
-.multi-spinner6 {
-  position: absolute;
-  width: calc(100% - 9.9px);
-  height: calc(100% - 9.9px);
-  border: 5px solid transparent;
-  border-top-color: blue;
-  border-radius: 50%;
-  -webkit-animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
-  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
-}
-/*animation*/
-
-@-webkit-keyframes spin {
-  from {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-
-}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
@@ -168,12 +86,7 @@ body{
     display: block;
 
   }
-  .multi-spinner-container{
-    top: 50%;
-  left: 50%;
-  margin-top: 300px;
-  margin-left: -60px;
-  }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -196,17 +109,125 @@ body{
     text-align: left;
   }
 }
-@media screen and (max-width: 1700px)
-{
-  .multi-spinner-container{
-   top: 50%;
+#loader p{
+  color: white;
+
+
+}
+.multi-spinner-container {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin: 30px auto;
+  overflow: hidden;
+  top: 50%;
   left: 50%;
   margin-top: 300px;
-  margin-left: -60px;
+  margin-left: -70px;
+  }
+
+.multi-spinner1 {
+  position: absolute;
+  width: calc(100% - 9.9px);
+  height: calc(100% - 9.9px);
+  border: 5px solid transparent;
+  border-top-color: rgb(132,32,204);
+  border-radius: 50%;
+  -webkit-animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+}
+.multi-spinner2 {
+  position: absolute;
+  width: calc(100% - 9.9px);
+  height: calc(100% - 9.9px);
+  border: 5px solid transparent;
+  border-top-color: rgb(220,19,210);
+  border-radius: 50%;
+  -webkit-animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+}
+.multi-spinner3 {
+  position: absolute;
+  width: calc(100% - 9.9px);
+  height: calc(100% - 9.9px);
+  border: 5px solid transparent;
+  border-top-color: rgb(220,19,119);
+  border-radius: 50%;
+  -webkit-animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+}
+.multi-spinner4 {
+  position: absolute;
+  width: calc(100% - 9.9px);
+  height: calc(100% - 9.9px);
+  border: 5px solid transparent;
+  border-top-color: rgb(220,95,19);
+  border-radius: 50%;
+  -webkit-animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+}
+.multi-spinner5 {
+  position: absolute;
+  width: calc(100% - 9.9px);
+  height: calc(100% - 9.9px);
+  border: 5px solid transparent;
+  border-top-color: rgb(220,177,19);
+  border-radius: 50%;
+  -webkit-animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+}
+.multi-spinner6 {
+  content: "loading-text";
+  position: absolute;
+  width: calc(100% - 9.9px);
+  height: calc(100% - 9.9px);
+  border: 5px solid transparent;
+  border-top-color: rgb(19,220,45);
+  border-radius: 50%;
+  -webkit-animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+}
+.multi-spinner7 {
+  content: "loading-text";
+  position: absolute;
+  width: calc(100% - 9.9px);
+  height: calc(100% - 9.9px);
+  border: 5px solid transparent;
+  border-top-color: rgb(19,220,182);
+  border-radius: 50%;
+  -webkit-animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+}
+.multi-spinner8 {
+  content: "loading-text";
+  position: absolute;
+  width: calc(100% - 9.9px);
+  height: calc(100% - 9.9px);
+  border: 5px solid transparent;
+  border-top-color: rgb(19,124,220);
+  border-radius: 50%;
+  -webkit-animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+}
+/*animation*/
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
+
+
+}
+
+
 .textmess{
-	justify-content: center;
+  justify-content: center;
 
 }
 .text2,.text3
@@ -216,7 +237,7 @@ body{
 
 .slideshow-container {
     max-width: 1000px;
- 	
+  
     position: relative;
     margin: auto;
     display: grid;
@@ -303,4 +324,3 @@ box-shadow: 3px 1px 10px 10px maroon;}
 .dot:hover {
     background-color: #717171
 }
-
